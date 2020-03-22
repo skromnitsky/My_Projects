@@ -40,3 +40,7 @@ appdirs==1.4.3
 <p>
 That's all. But copying the packages will be very slow...
 </p>
+
+</body>
+
+</html>
