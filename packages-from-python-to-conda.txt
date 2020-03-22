@@ -3,7 +3,7 @@ How to transfer all Python Packages from pip to Anaconda (conda) in Windows?
 Here's the solution:
 1. Enter in cmd:
 
-pip freeze
+<code>pip freeze</code>
 
 Output:
 agate==1.6.1
@@ -22,5 +22,6 @@ appdirs==1.4.3
 
 3. If you are using Windows enter in cmd:
 
-FOR /F "delims=~" %f in (requirements.txt) DO conda install --yes "%f" || pip install "%f"
+<code>FOR /F "delims=~" %f in (requirements.txt) DO conda install --yes "%f" || pip install "%f"</code>
 
+That's all. But copying the packages will be very slow...
